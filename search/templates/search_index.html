@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		flatomatic!
+	</title>
+</head>
+<body>
+	I found some things:
+
+	{% for listing in listings %}
+	<p>
+		{{listing.address}} </br>
+		{{listing.distance}}
+	</p>
+	{% endfor %}
+</body>
